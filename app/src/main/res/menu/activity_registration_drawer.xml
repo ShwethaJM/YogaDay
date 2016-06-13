@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_startYoga"
+            android:title="How do I start Yoga" />
+        <item
+            android:id="@+id/nav_suryanamaskara"
+            android:title="Suryanamaskara" />
+        <item
+            android:id="@+id/nav_basicPosture"
+            android:title="Basic Postures" />
+
+        <item android:id="@+id/nav_advancedPosture"
+        android:title="Advanced Postures" />
+        <item
+            android:id="@+id/nav_history"
+            android:title="History of Yoga" />
+        <item
+            android:id="@+id/nav_benefits"
+            android:title="Benefits of Yoga" />
+
+        <item
+            android:id="@+id/nav_questions"
+            android:title="Questions" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="About Us" />
+
+    </group>
+
+</menu>
