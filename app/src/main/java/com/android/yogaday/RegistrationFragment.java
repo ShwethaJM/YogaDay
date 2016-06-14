@@ -63,7 +63,7 @@ public class RegistrationFragment extends Fragment {
     static EditText dob;
     Button submit;
     static SimpleDateFormat dateFormatter,changeDateFormatter;
-    private final String serverUrl = "http://www.algosolv.com/....";
+    private final String serverUrl = "http://www.algosolv.com/YogaApp/signup.php";
     private static int DELAY_TIME_OUT = 2000;
 
     public RegistrationFragment() {
