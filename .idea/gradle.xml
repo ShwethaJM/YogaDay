@@ -9,12 +9,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/apache-httpcomponents-httpclient" />
+            <option value="$PROJECT_DIR$/apache-httpcomponents-httpcore" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/apache-httpcomponents-httpclient" />
+            <option value="$PROJECT_DIR$/apache-httpcomponents-httpcore" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
