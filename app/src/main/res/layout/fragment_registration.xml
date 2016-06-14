@@ -63,6 +63,7 @@
         android:layout_below="@+id/mobile"
         android:layout_alignLeft="@+id/mobile"
         android:layout_alignStart="@+id/mobile"
+        android:editable="false"
         android:layout_marginTop="20dp" />
 
     <Button
