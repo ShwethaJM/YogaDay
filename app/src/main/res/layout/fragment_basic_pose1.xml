@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPose1Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Ananda Balasana"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pose1Text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pose1Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="5dp"
+        android:text="Lie on your back. Exhaling, bend the knees towards your belly.
+Inhaling, grip the outsides of your feet with your hands(any issues holding your feet directly with your hands try holding a belt looped over each sole).
+Open your knees slightly wider than your torso and bring them up toward your armpits.
+Position each ankle directly over the knee, so your shins are perpendicular to the floor.
+Flex through the heels.
+Gently push your feet up into your hands (or the belts) as you pull your hands down to create a resistance.
+"
+        android:layout_below="@+id/pose1Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/clickArrowpose1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pose1Detail"
+        android:layout_alignEnd="@+id/pose1Detail" />
+
+</RelativeLayout>

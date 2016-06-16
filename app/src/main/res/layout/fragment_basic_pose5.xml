@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPose5Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Marjaryasana"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pose5Text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pose5Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="3dp"
+        android:text="Hold your hands, knees in a position called Table-top, as shown in the image. Your knees should be directly below hips and wrists directly under elbows.\nShoulders straight and at a 90 degree angle to ground with mid portion of head in a neutral position.\nKeep your vision towards the floor.\nCurl your spine during exhalation such that you see the ceiling, keep shoulders and knees in same position. Loosen your head inclining it towards ground, do not force your chin to your chest, but try to touch.\nAs you Inhale, come to neutral back to the same position - “tabletop”."        android:layout_below="@+id/pose5Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowpose5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignLeft="@+id/pose5Detail"
+        android:layout_alignStart="@+id/pose5Detail" />
+
+</RelativeLayout>

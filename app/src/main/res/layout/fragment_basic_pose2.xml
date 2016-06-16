@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPose2Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Anjaneyasana"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pose2Text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pose2Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="3dp"
+        android:text="Exhaling, step your right foot forward between your hands, balance right knee over the heel. Lower your left knee to the floor keeping the right knee fixed in place. Slide the left back until you feel a comfortable stretch in the left front thigh and groin. Then turn the top of your left foot to the floor.\nInhale and lift your torso to upright. As you do, sweep your arms out to the sides and up, perpendicular to the floor. Draw the tailbone down toward the floor and lift your pubic bone toward your navel. Lift your chest from the firmness of your shoulder blades against the back torso.\nTake your head back and look up, being careful not to jam the back of your neck. Reach your pinkies toward the ceiling. Hold for a minute, exhale your torso back to the right thigh and your hands to the floor, and turn your back toes under. With another exhale, lift your left knee off the floor and step back to Adho Mukha Svanasana. Repeat with the left foot forward for the same length of time."
+        android:layout_below="@+id/pose2Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/clickArrowpose2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pose2Detail"
+        android:layout_alignEnd="@+id/pose2Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowpose2"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/clickArrowpose2"
+        android:layout_alignLeft="@+id/pose2Detail"
+        android:layout_alignStart="@+id/pose2Detail" />
+
+</RelativeLayout>

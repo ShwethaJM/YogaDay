@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuryanamaskaraStep1Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Suryanamaskara"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/suryanamsakaraStep1Text"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/suryanamsakaraStep1Text"
+        android:gravity="center"
+        android:text="How to do Surya Namaskar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/howSuryaStep1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/howSuryaStep1"
+        android:gravity="left"
+        android:text="The 12 Poses are"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/suryaStep1"
+        android:gravity="left"
+        android:text="Step 1 (Prayer pose):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep1Heading"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suryaStep1Heading"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:text="Stand at the edge of your mat, keep your feet together and balance your weight equally on both the feet. Expand your chest and relax your shoulders. As you breathe in, lift both arms up from the sides and as you exhale, bring your palms together in front of the chest in prayer position."
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep1Detail"
+        />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/clickArrowStep1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/suryaStep1Detail"
+        android:layout_alignEnd="@+id/suryaStep1Detail" />
+
+</RelativeLayout>

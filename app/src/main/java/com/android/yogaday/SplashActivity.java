@@ -1,7 +1,9 @@
 package com.android.yogaday;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Handler;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -22,10 +24,24 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent intent = new Intent(SplashActivity.this,MainActivity.class);
-                startActivity(intent);
-                // close this activity
-                finish();
+
+                 /*code to run registration activity only once*/
+                SharedPreferences sharedPreferences = getSharedPreferences("prefs",0);
+        /*setting flag value*/
+                 boolean firstRun = sharedPreferences.getBoolean("firstRun",false);
+                if(firstRun == false) {
+
+                    Intent intent = new Intent(SplashActivity.this, RegistrationActivity.class);
+                    startActivity(intent);
+                    // close this activity
+                    finish();
+                }
+                else{
+                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                    startActivity(intent);
+                    // close this activity
+                    finish();
+                }
             }
         },SPLASH_TIME_OUT);
     }

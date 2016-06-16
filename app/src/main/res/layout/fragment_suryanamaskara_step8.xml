@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.SuryanamaskaraStep8Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Suryanamaskara"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/suryanamsakaraStep8Text"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/suryanamsakaraStep8Text"
+        android:gravity="center"
+        android:text="How to do Surya Namaskar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/howSuryaStep8"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/howSuryaStep8"
+        android:gravity="left"
+        android:text="Step 8 (Mountain pose):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep8Heading"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suryaStep8Heading"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:text="Breathing out, lift the hips and the tail bone up, chest downwards in an &#39; inverted V&#39; (/\) posture. If possible, try and keep the heels on the ground and make a gentle effort to lift the tailbone up, going deeper into the stretch."
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep8Detail"
+        />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/clickArrowStep8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/suryaStep8Detail"
+        android:layout_alignEnd="@+id/suryaStep8Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowStep8"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/clickArrowStep8"
+        android:layout_alignLeft="@+id/suryaStep8Detail"
+        android:layout_alignStart="@+id/suryaStep8Detail" />
+
+
+</RelativeLayout>

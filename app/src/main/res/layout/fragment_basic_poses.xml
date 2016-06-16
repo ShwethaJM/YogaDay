@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPosesFragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Basic Poses"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/basicPoses"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="A boon for backache and stressful traveling"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/basicPosestext1"
+        android:layout_below="@+id/basicPoses"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Ananda Balasana"
+        android:id="@+id/pose1Button"
+        android:layout_below="@+id/basicPosestext1"
+        android:layout_alignLeft="@+id/basicPosestext1"
+        android:layout_alignStart="@+id/basicPosestext1"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"/>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Anjaneyasana"
+        android:id="@+id/pose2Button"
+        android:layout_alignTop="@+id/pose1Button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Dandasana"
+        android:id="@+id/pose3Button"
+        android:layout_below="@+id/pose1Button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Uttana Shishosana"
+        android:id="@+id/pose4Button"
+        android:layout_below="@+id/pose3Button"
+        android:layout_alignLeft="@+id/pose1Button"
+        android:layout_alignStart="@+id/pose1Button"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="125dp"
+        android:layout_height="60dp"
+        android:text="Marjaryasana"
+        android:id="@+id/pose5Button"
+        android:layout_alignTop="@+id/pose4Button"
+        android:layout_alignRight="@+id/pose2Button"
+        android:layout_alignEnd="@+id/pose2Button"
+        android:textAllCaps="false"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/basicPosestext2"
+        android:text="3 days a week of these small capsules No Back ache, No Insomnia and No Dark circles"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/basicPosestext1"
+        android:layout_alignStart="@+id/basicPosestext1"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

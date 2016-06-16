@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BriefAboutYogaFragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Brief about Yoga"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/briefHeading"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:lineSpacingExtra="5dp"
+    android:text="“Yujyathe ithi Yogah” means “union” union of mind and body is the goal of Yoga and a discipline followed to achieve this in 8 stages"
+    android:textStyle="bold"
+    android:textSize="15dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/brieftext1"
+    android:layout_below="@+id/briefHeading"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:lineSpacingExtra="5dp"
+        android:text="1. Yama\n2. Niyama\n3. Asana\n4. Pranayama\n5. Prathyahaara\n6. Dharana\n7. Dhyana\n8. Samadhi"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/brieftext2"
+        android:layout_below="@+id/brieftext1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:text="This discipline is called as “Ashtaanga-Yoga” – Eight organs/steps of yoga or eight steps on how anyone can achieve the union of one’s body with mind.\nYoga is a form of controlling your body and bring your mind in-line."
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/brieftext3"
+        android:layout_below="@+id/brieftext2"
+        />
+
+</RelativeLayout>

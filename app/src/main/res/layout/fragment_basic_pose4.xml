@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPose4Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Uttana Shishosana"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pose4Text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pose4Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="3dp"
+        android:text="Sit on all fours as shown in the figure. Such that your shoulders straight above wrists and hips above your knees. Walk your hands a few inches front and try to round your toes below.\nOn exhalation, try moving your glutes halfway back toward the heels and make sure your arms are active and elbows shouldn’t touch the ground.\nDrop your forehead towards the ground with a blanket for protection or support; to let your neck relax. Make sure your lower back is slightly curved to feel long stretch in your spine then press the hands down and stretch through the arms simultaneously pulling your hips back toward the heels.\nFill your lungs with air, breathe slowly into your back, feeling the spine stretch on both sides. Hold for about a minute and release your buttocks down onto your heels."
+        android:layout_below="@+id/pose4Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/clickArrowpose4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pose4Detail"
+        android:layout_alignEnd="@+id/pose4Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowpose4"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/clickArrowpose4"
+        android:layout_alignLeft="@+id/pose4Detail"
+        android:layout_alignStart="@+id/pose4Detail" />
+</RelativeLayout>

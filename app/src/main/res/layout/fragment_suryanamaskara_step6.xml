@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.SuryanamaskaraStep6Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Suryanamaskara"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/suryanamsakaraStep6Text"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/suryanamsakaraStep6Text"
+        android:gravity="center"
+        android:text="How to do Surya Namaskar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/howSuryaStep6"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/howSuryaStep6"
+        android:gravity="left"
+        android:text="Step 6 (Saluting with eight points or parts):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep6Heading"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suryaStep6Heading"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:text="Gently bring your knees down to the floor and exhale. Take the hips back slightly, slide forward, rest your chest and chin on the floor. Raise your posterior a little bit .The two hands, two feet, two knees, chest and chin (eight parts of the body) should touch the floor."
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep6Detail"
+        />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/clickArrowStep6"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/suryaStep6Detail"
+        android:layout_alignEnd="@+id/suryaStep6Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowStep6"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/clickArrowStep6"
+        android:layout_alignLeft="@+id/suryaStep6Detail"
+        android:layout_alignStart="@+id/suryaStep6Detail" />
+
+</RelativeLayout>

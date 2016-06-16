@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.SuryanamaskaraStep7Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Suryanamaskara"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/suryanamsakaraStep7Text"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/suryanamsakaraStep7Text"
+        android:gravity="center"
+        android:text="How to do Surya Namaskar"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/howSuryaStep7"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/howSuryaStep7"
+        android:gravity="left"
+        android:text="Step 7 (Cobra pose):"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep7Heading"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suryaStep7Heading"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:text="Slide forward and raise the chest up into the cobra posture. You may keep your elbows bent in this pose, the shoulders away from the ears. Look up. As you inhale, make a gentle effort to push the chest forward; as you exhale, make a gentle effort to push the navel down. Tuck the toes under. Ensure you're restretching just as much as you can; do not force."
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/suryaStep7Detail"
+        />
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/clickArrowStep7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/suryaStep7Detail"
+        android:layout_alignEnd="@+id/suryaStep7Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowStep7"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/clickArrowStep7"
+        android:layout_alignLeft="@+id/suryaStep7Detail"
+        android:layout_alignStart="@+id/suryaStep7Detail" />
+
+
+</RelativeLayout>

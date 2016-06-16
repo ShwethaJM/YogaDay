@@ -10,46 +10,40 @@
         android:layout_height="30dp"
         android:gravity="center"
         android:text="Backgroud"
-        android:textStyle="italic|bold"
+        android:textStyle="bold"
         android:textSize="20dp"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"
         android:id="@+id/background"
         />
 
     <!-- TODO: Update blank fragment layout -->
-    <ScrollView
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/background"
+    >
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/background"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="10dp">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/suryanamaskaraText"
+        android:id="@+id/backgroundText1"
         android:textColor="@color/colorPrimaryDark"
-        android:text="The United Nations proclaimed 21 June
-as the International Day of Yoga.
-Yoga is an ancient physical, mental and spiritual
-practice that originated in India. The word ‘yoga’
-derives from Sanskrit and means to join or to unite,
-symbolizing the union of body and consciousness.
-Today it is practiced in various forms around the
-world and continues to grow in popularity.
-Recognizing its universal appeal, on 11 December
-2014, the United Nations proclaimed 21 June as
-International Yoga Day by resolution 69/131.
-International Yoga Day aims to raise awareness
-worldwide of the many benefits of practicing yoga.
-">
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="10dp"
+        android:text="The United Nations proclaimed 21 June as the International Day of Yoga. Yoga is an ancient physical, mental and spiritual practice that originated in India. The word ‘yoga’derives from Sanskrit and means to join or to unite,symbolizing the union of body and consciousness. Today it is practiced in various forms around the world and continues to grow in popularity. Recognizing its universal appeal, on 11 December 2014, the United Nations proclaimed 21 June as International Yoga Day by resolution 69/131.International Yoga Day aims to raise awareness worldwide of the many benefits of practicing yoga."
+        android:layout_below="@+id/background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
     </TextView>
-    </ScrollView>
+
+</ScrollView>
+
+
+
+
 
 </RelativeLayout>

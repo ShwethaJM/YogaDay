@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.android.yogaday.QuestionsFragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Questions"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/questionHeading"
+        />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/questionSubmit"
+        android:textAllCaps="false"
+        android:layout_below="@+id/questiontextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center"
+        android:text="You can post your questions here."
+        android:id="@+id/questionDetail"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/questionHeading"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/questiontextview"
+        android:background="@drawable/edit_style"
+        android:layout_below="@+id/questionDetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
+        android:layout_alignRight="@+id/questionHeading"
+        android:layout_alignEnd="@+id/questionHeading" />
+
+</RelativeLayout>

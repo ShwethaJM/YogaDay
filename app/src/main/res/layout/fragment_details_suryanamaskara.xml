@@ -2,9 +2,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.yogaday.SuryanamaskaraFragment"
+    tools:context="com.android.yogaday.DetailsSuryanamaskaraFragment"
     android:background="@drawable/fragment_page_style">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -14,39 +15,31 @@
         android:textSize="20dp"
         android:textColor="@color/colorPrimaryDark"
         android:layout_marginLeft="10dp"
-        android:id="@+id/suryanamsakara"
+        android:id="@+id/detailsSuryanamsakara"
         />
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/suryanamasakara"
-        android:layout_below="@+id/suryanamsakara"
-        android:id="@+id/suryanamsakaraImage"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/suryanamsakaraText"
-        android:text="Suryanamaskara is a set of 12 sequential set of body movements, methodical, slow and fluidic which transforms body from a stiff state to a relaxed state.Doubles up as cardiovascular exercise which is most effective to people who sit all through the day or drive."
+        android:text="Details of how to perform will be given here"
         android:gravity="center"
         android:lineSpacingExtra="10dp"
         android:textStyle="bold"
         android:textSize="15dp"
         android:textColor="@color/colorPrimaryDark"
-        android:layout_below="@+id/suryanamsakaraImage"
-        android:layout_marginTop="10dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/detailsSuryanamsakaraText"/>
+
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@drawable/forward_icon"
         android:layout_marginBottom="50dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/suryanamsakara"
-        android:layout_alignEnd="@+id/suryanamsakara"
         android:layout_marginRight="10dp"
         android:layout_marginEnd="30dp"
-        android:id="@+id/clickArrow"/>
-
+        android:id="@+id/clickArrowSteps"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BasicPose3Fragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Dandasana"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/pose3Text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pose3Detail"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_gravity="fill"
+        android:lineSpacingExtra="3dp"
+        android:text="Comfortably sit on ground with your legs together extending in front of your torso. If your torso is leaning back (reason: tight hamstrings dragging sitting bones to knees and back of the pelvis towards ground) Use blanket to sit to help lift the pelvis.\nSitting with your back against a wall is an easier way to make sure of good alignment. The sacrum and shoulder blades should touch the wall, but be careful not to touch the lower back or the back of the head. Put a small rolled-up towel between the wall and the lower back.\nSit towards the front of the sitting bones, and adjust the pubis and tail bone equidistant from the floor. Without hardening the belly and tighten your thighs, press them down against the floor and rotate them slightly toward each other. Draw the inner groins toward the sacrum. Flex your ankles by pressing out through your heels.\nTo lengthen your front torso 90 degrees to the floor, think of energy streaming upward from the pubis to the sternum and down the back from the shoulders to the tail bone. Then imagine the tail lengthening into the floor.\nImagine your spine as a “staff” vertical core of your torso, rooted firmly in the Earth and support; Hold the pose for one minute or longer.
+"
+        android:layout_below="@+id/pose3Text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/forward_icon"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/clickArrowpose3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/pose3Detail"
+        android:layout_alignEnd="@+id/pose3Detail" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/backward_icon"
+        android:id="@+id/clickBackArrowpose3"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/clickArrowpose3"
+        android:layout_alignLeft="@+id/pose3Detail"
+        android:layout_alignStart="@+id/pose3Detail" />
+
+</RelativeLayout>

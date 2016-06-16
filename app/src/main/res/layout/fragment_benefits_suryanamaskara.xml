@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.yogaday.BenefitsSuryanamaskaraFragment"
+    android:background="@drawable/fragment_page_style">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:text="Benefits"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/benefitText"
+        />
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="fill"
+    android:layout_below="@+id/benefitText">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_gravity="fill"
+        android:gravity="left"
+        android:text="1. Improves Blood Circulation of the Body :\nDue to the active process of inhalation and exhalation, the lungs are constantly ventilated and the blood remains oxygenated. It's a great way of detoxing your body and helping it get rid of excess carbon dioxide and other toxic gases. \n\n2. Your Mantra to Weight loss :\nWhen done at a fast pace, it is a great cardiovascular workout that stretches the abdominal muscles while simultaneously helping you reduce excess weight around your stomach. The asanas also result in toning your arms, abs and giving great flexibility to your spine. Moreover, It helps to strengthen your entire skeletal system including your ligaments.\n\n3. Promotes a Regular Menstrual Cycle : \nIf you're facing the problem of an irregular menstrual cycle, these asanas will help you suppress this irregularity and if practiced daily, it ensures an easy childbirth. \n\n4. Benefits your Skin and Hair : \nBy incorporating it in your routine it will keep you youthful and healthy even in old age. It improves your blood circulation that aids in bringing back the glow on your face; preventing the onset of wrinkles, making your skin look ageless and radiant. It also prevents hair loss and the ageing of hair.\n\n5. Anti-anxiety and Calming Properties : \nSurya Namaskar helps to improve memory and the nervous system. Moreover, its stabilizes the activity of the endocrine and thyroid glands, thereby reducing anxiety and inducing the sensation of complete calmness and tranquillity."
+        android:textSize="15dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/benefit1"
+        />
+</ScrollView>
+
+</RelativeLayout>
